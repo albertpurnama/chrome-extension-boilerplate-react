@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../assets/img/logo.svg';
-import Greetings from '../../containers/Greetings/Greetings';
 import './Popup.css';
 
 const Popup = () => {
@@ -9,15 +8,15 @@ const Popup = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/pages/Popup/Popup.js</code> and save to reload.
+          Liking this extension so far?
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.paypal.com/paypalme/albertpurnama/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React!
+          Buy me a cup of coffee!
         </a>
       </header>
     </div>
